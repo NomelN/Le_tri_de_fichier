@@ -16,6 +16,7 @@ dossier_extension = {".mp3": "Musique",
                      ".odp": "Documents",
                      ".pages": "Documents"}
 
+#chemin du dossier à trier
 dossier_data = Path.home()/"Downloads"/"sources"/"data"
 
 fichiers = [f for f in dossier_data.iterdir() if f.is_file()]
